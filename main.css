@@ -1,0 +1,214 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary_color: #1e90ff;
+    --primary_dark_color:#004085;
+    --primary_light_color:#cce5ff;
+    
+    --secondary_color: #6c757d;
+    --secondary_dark_color:#383d41;
+    --secondary_light_color:#e2e3f5;
+
+    --success_color:#28a745;
+    --success_dark_color:#155724;
+    --success_light_color:#d4edda;
+
+    --danger_color: #4d4445;
+    --danger_dark_color: #721c24;
+    --danger_light_color: #f8d7da;
+
+    --warning_color:#ffc107;
+    --warning_dark_color:#856404;
+    --warning_light_color: #fff3cd;
+  }
+
+
+/* alert class */
+.alert {
+    padding: 12px 24px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-primary{
+    color: var(--primary_dark_color);
+    background-color: var(--primary_light_color);
+}
+
+.alert-secondary{
+    color: var(--secondary_dark_color);
+    background-color: var(--secondary_light_color);
+}
+
+.alert-success{
+    color: var(--success_dark_color);
+    background-color: var(--success_light_color);
+}
+
+.alert-danger{
+    color: var(--danger_dark_color);
+    background-color: var(--danger_light_color);
+}
+
+.alert-warning{
+    color: var(--warning_dark_color);
+    background-color: var(--warning_light_color);
+}
+
+
+/* Main button class */
+.btn {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--primary_color);
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #0069d9;
+    font-weight: 500;
+}
+
+/* Secondary button class */
+.btn-secondary{
+    background-color:  var(--secondary_color);
+}
+
+.btn-secondary:hover{
+    background-color: #5a6268;
+
+}
+
+/* Success button class */
+.btn-success{
+    background-color:  var(--success_color);
+}
+
+.btn-success:hover{
+    background-color: #218838;
+
+}
+
+/* Danger button class */
+.btn-danger{
+    background-color:  var(--danger_color);
+}
+
+.btn-danger:hover{
+    background-color: #c82333;
+
+}
+
+/* Warning button class */
+.btn-warning{
+    background-color:  var(--warning_color);
+    color: #000;
+}
+
+.btn-warning:hover{
+    background-color: #e0a800;
+
+}
+
+/* Outline-primary button */
+.btn-outline-primary{
+    color: var(--primary_color);
+    border: 1px solid var(--primary_color);
+    background-color: #fff;
+}
+
+.btn-outline-primary:hover{
+    color: #fff;
+    border: 1px solid var(--primary_color);
+    background-color: var(--primary_color);
+}
+
+/* Outline-secondary button */
+.btn-outline-secondary{
+    color: var(--secondary_color);
+    border: 1px solid var(--secondary_color);
+    background-color: #fff;
+}
+
+.btn-outline-secondary:hover{
+    color: #fff;
+    border: 1px solid var(--secondary_color);
+    background-color: var(--secondary_color);
+}
+
+/* Outline-success button */
+.btn-outline-success{
+    color: var(--success_color);
+    border: 1px solid var(--success_color);
+    background-color: #fff;
+}
+
+.btn-outline-success:hover{
+    color: #fff;
+    border: 1px solid var(--success_color);
+    background-color: var(--success_color);
+}
+
+/* Outline-danger button */
+.btn-outline-danger{
+    color: var(--danger_color);
+    border: 1px solid var(--danger_color);
+    background-color: #fff;
+}
+
+.btn-outline-danger:hover{
+    color: #fff;
+    border: 1px solid var(--danger_color);
+    background-color: var(--danger_color);
+}
+
+/* Outline-warning button */
+.btn-outline-warning{
+    color: var(--warning_color);
+    border: 1px solid var(--warning_color);
+    background-color: #fff;
+}
+
+.btn-outline-warning:hover{
+    color: #fff;
+    border: 1px solid var(--warning_color);
+    background-color: var(--warning_color);
+}
+
+/* Form */
+.form-control{
+    padding: 6px 12px;
+    margin: 3px 6px;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.form-control:focus-visible{
+    outline-color: #80bdff;
+    outline-style: auto;
+    outline-width: 1px;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 1px rgba(0,123,255,0.25);
+}
+
+
+/* navbar */
+.navbar{
+    color:#212529;
+    background-color: #f8f9fa;
+    padding: 6px 12px;
+    align-items: center;
+}
+
+.navbar-nav{
+    list-style: none;
+}
